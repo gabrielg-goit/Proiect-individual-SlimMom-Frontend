@@ -1,0 +1,58 @@
+.background {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  top: 0;
+}
+
+@media (min-width: 768px) {
+  .background {
+    min-height: 100vh;
+    background-image: url('../../../images/pictures/Tablet/shapeTablet-LoginBackground.svg');
+    background-position: bottom 0px right 0px;
+    background-repeat: no-repeat;
+    background-size: 62% auto;
+  }
+  .strawberry {
+    display: block;
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+  }
+  .banana {
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+  }
+  .leaves {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background {
+    min-height: 100vh;
+    background-image: url('../../../images/pictures/Tablet/shapeDesktop-LoginBackground.svg');
+    background-position: top 0px right 0px;
+    background-repeat: no-repeat;
+    background-size: 62% auto;
+    /* background-size: contain; */
+  }
+  .strawberry {
+    left: 800px;
+    top: 550px;
+  }
+  .banana {
+    right: 0px;
+    top: -50px;
+  }
+  .leaves {
+    left: 420px;
+    bottom: 120px;
+  }
+}
